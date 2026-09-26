@@ -1,2 +1,4 @@
 # capstone-268448C
-Access-aware natural-language-to-SQL system for a denormalized healthcare claims warehouse (Synthea). Grounds an LLM in a metadata catalog and business glossary, enforces row-level access with a deterministic policy layer, and evaluates accuracy and data leakage against non-LLM and naive-LLM baselines. CS5998 Capstone.
+This project explores how business users can query denormalized data-engineering models in plain English without bypassing application-level access controls. An LLM translates questions into SQL using a curated metadata layer (table and column descriptions, a business glossary, example queries). A policy layer written in my own code, not the LLM, then injects each user's access filters before execution. The warehouse is split into isolated PostgreSQL schemas: source, curated, metadata, access and audit. The LLM-facing role can never read source or access data. The system is evaluated on execution accuracy, latency, cost and leakage under adversarial prompts. It is compared with a non-LLM baseline and naive prompting.
+
+CS5998 Capstone, MSc Data Science & AI. All data is synthetic; no real PHI or PII is used.
