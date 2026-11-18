@@ -1,0 +1,2 @@
+# This script will generate synthetic patient data using Synthea and export it to CSV format.
+java -jar synthea-with-dependencies.jar -s 42 -cs 42 -p 5000 -r 20260101 --exporter.csv.export true --exporter.fhir.export false
