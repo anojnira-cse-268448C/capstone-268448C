@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# project data and tools
+data/synthea/output/
+data/synthea/*.jar
+data/**/*.csv

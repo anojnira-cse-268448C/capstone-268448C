@@ -1,0 +1,11 @@
+psycopg[binary]
+sqlalchemy
+pandas
+python-dotenv
+anthropic
+sqlglot
+rank-bm25
+pgvector
+matplotlib
+jupyter
+pytest
