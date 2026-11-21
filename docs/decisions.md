@@ -15,3 +15,6 @@
 ## 2026-11-18: PostgreSQL 17 + pgvector via Docker Compose
 - Considered: installing PostgreSQL directly on Windows
 - Why: identical setup for anyone cloning the repo; pgvector preinstalled.
+
+## 2026-11-21: Synthea data generation
+- three states to support state-based entitlements, total about 5,000 patients to match the Project Definition, and the seeds used.
