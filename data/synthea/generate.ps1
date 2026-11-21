@@ -1,4 +1,4 @@
-# Synthea release: release v4.0.0, downloaded 2026-11-18
+# Synthea release: v4.0.0, downloaded 2026-11-18
 # Generates one folder per state, each with its own fixed seed.
 $jar = "synthea-with-dependencies.jar"
 
